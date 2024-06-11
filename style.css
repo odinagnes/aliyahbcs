@@ -3,6 +3,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to bottom, #d4f3d9, #b8e6c1);
+    color: #333;
 }
 
 header {
@@ -56,4 +58,23 @@ form label {
 
 form input, form textarea, form button {
     margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #b8e6c1;
+    border-radius: 4px;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #98d3a9;
+}
+
+form button {
+    background-color: #98d3a9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #87c698;
 }
